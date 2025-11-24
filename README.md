@@ -40,6 +40,7 @@
 - Root-cause analysis for failures
 - Recommended corrective actions
 - Automatic pipeline documentation and summaries
+- Build/Explain dynamic pipeline expressions
 
 #### 2. Notebooks (Data Engineering / Data Science)
 - Coding assistant for starter code and iterative development
