@@ -25,3 +25,37 @@
 - **Primary key requirements**  
   - Earlier versions required a **PK** always.  
   - For incremental processing, **PK + `__rowMarker__`** are required so the engine can identify and apply changes correctly.
+
+---
+
+**Date:** 22 Nov 2025
+
+## Copilot in Microsoft Fabric — Key Capabilities & Considerations
+
+### Where Copilot Can Be Used
+
+#### 1. Data Pipelines (Data Factory)
+- Pipeline development through natural language (NLP)
+- Error categorization and explanation
+- Root-cause analysis for failures
+- Recommended corrective actions
+- Automatic pipeline documentation and summaries
+
+#### 2. Notebooks (Data Engineering / Data Science)
+- Coding assistant for starter code and iterative development
+- Error analysis and explanation
+- Auto-generated documentation and comments
+- Context-aware code suggestions based on data, schema, and notebook state
+
+### Additional Considerations
+
+- **Consumes Fabric Capacity:**  
+  Copilot runs on your Fabric capacity; heavy usage may affect consumption and performance.
+
+- **Tenant-Level Governance:**  
+  Admin controls for enabling/disabling Copilot, managing data sent to Azure OpenAI, and defining data residency rules.
+
+- **Non-Deterministic Behavior:**  
+  Generated outputs may vary across sessions due to the nature of LLMs.
+
+---
