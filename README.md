@@ -2,8 +2,12 @@
 
 **Date:** 25 Nov 2025
 
-## Copy Job (General Availability)
+## Data Virtualization in Fabric SQL (Preview)
+- Data Virtualization (Preview) for Fabric SQL Databases, enable to query and ingest OneLake data (CSV, Parquet, JSON)
+- No duplication of data
+- Combine OPENROWSET and External Tables with BULK operations
 
+## Copy Job (General Availability)
 - Supports full / Incremental / CDC data refreshes
 - Deletes can only be handled in CDC refresh
 - Inseets / Updates only be handled in Incremental data refresh
@@ -15,7 +19,6 @@
 **Date:** 23 Nov 2025
 
 ## Open Mirroring Overview
-
 - A mirrored database is provisioned in Fabric, automatically generating a OneLake landing zone for file ingestion.
 - Upload initial Parquet or CSV files into the landing zone.  
   Without `__rowMarker__`, all rows are treated as **initial inserts**.
@@ -31,32 +34,22 @@
 
 ## Copilot in Microsoft Fabric — Key Capabilities & Considerations
 
-### Where Copilot Can Be Used
+- Data Pipelines (Data Factory)
+ - Pipeline development through natural language (NLP)
+ - Error categorization and explanation
+ - Root-cause analysis for failures
+ - Recommended corrective actions
+ - Automatic pipeline documentation and summaries
+ - Build/Explain dynamic pipeline expressions
 
-#### 1. Data Pipelines (Data Factory)
-- Pipeline development through natural language (NLP)
-- Error categorization and explanation
-- Root-cause analysis for failures
-- Recommended corrective actions
-- Automatic pipeline documentation and summaries
-- Build/Explain dynamic pipeline expressions
+- Notebooks (Data Engineering / Data Science)
+ - Coding assistant for starter code and iterative development
+ - Error analysis and explanation
+ - Auto-generated documentation and comments
+ - Context-aware code suggestions based on data, schema, and notebook state
 
-#### 2. Notebooks (Data Engineering / Data Science)
-- Coding assistant for starter code and iterative development
-- Error analysis and explanation
-- Auto-generated documentation and comments
-- Context-aware code suggestions based on data, schema, and notebook state
-
-### Additional Considerations
-
-- **Consumes Fabric Capacity:**  
-  Copilot runs on your Fabric capacity; heavy usage may affect consumption and performance.
-
-- **Tenant-Level Governance:**  
-  Admin controls for enabling/disabling Copilot, managing data sent to Azure OpenAI, and defining data residency rules.
-
-- **Non-Deterministic Behavior:**  
-  Generated outputs may vary across sessions due to the nature of LLMs.
+- Copilot runs on your Fabric capacity; heavy usage may affect consumption and performance.
+- Admin controls for enabling/disabling Copilot, managing data sent to Azure OpenAI, and defining data residency rules.
 
 ---
 
