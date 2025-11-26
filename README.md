@@ -1,5 +1,15 @@
 # Microsoft Fabric  
 
+**Date:** 26 Nov 2025
+
+## Spark optimizations
+- Disable v-order for optimizing writes
+- Enable auto compaction for reducing lot of files
+- Enable Fast optimization
+- Enable native execution engine
+- Configure WriteHeavy, Readheavy profile
+- Check spark actions usage
+
 **Date:** 25 Nov 2025
 
 ## Data Virtualization in Fabric SQL (Preview)
@@ -34,20 +44,12 @@
 
 ## Copilot in Microsoft Fabric — Key Capabilities & Considerations
 
-- Data Pipelines (Data Factory)
- - Pipeline development through natural language (NLP)
- - Error categorization and explanation
- - Root-cause analysis for failures
- - Recommended corrective actions
- - Automatic pipeline documentation and summaries
- - Build/Explain dynamic pipeline expressions
-
-- Notebooks (Data Engineering / Data Science)
- - Coding assistant for starter code and iterative development
- - Error analysis and explanation
- - Auto-generated documentation and comments
- - Context-aware code suggestions based on data, schema, and notebook state
-
+- Pipeline development through natural language (NLP)
+- Error categorization and explanation
+- Root-cause analysis for failures
+- Recommended corrective actions
+- Automatic pipeline documentation and summaries
+- Build/Explain dynamic pipeline expressions
 - Copilot runs on your Fabric capacity; heavy usage may affect consumption and performance.
 - Admin controls for enabling/disabling Copilot, managing data sent to Azure OpenAI, and defining data residency rules.
 
