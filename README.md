@@ -10,7 +10,7 @@
 - Follows JDBC standard and support Spark SQL data types (Array, Map, Struct)
 - It can rread anything which spark can read
 - Allows all flows from Microsoft Entra Authentication
-- Connection pooling
+- Connection pooling, auto-reconnect, circuit breaker, result-set prefetching, proxy support
 - Cannot work with regular Databases
 
 ---
