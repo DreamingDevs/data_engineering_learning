@@ -1,5 +1,20 @@
 # Microsoft Fabric  
 
+**Date:** 29 Nov 2025
+
+## JDBC Driver for Data engineering
+
+- Regular JDBC is not data engineering friendly
+- New JDBC Driver designed to connect to Spark workloads, can submit Spark SQL from Java apps also
+- Start spark session, configure its resources. Can talk to spark clusters.
+- Follows JDBC standard and support Spark SQL data types (Array, Map, Struct)
+- It can rread anything which spark can read
+- Allows all flows from Microsoft Entra Authentication
+- Connection pooling
+- Cannot work with regular Databases
+
+---
+
 **Date:** 26 Nov 2025
 
 ## Spark optimizations
