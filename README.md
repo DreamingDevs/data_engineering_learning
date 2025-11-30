@@ -1,4 +1,18 @@
-# Microsoft Fabric  
+# Microsoft Fabric
+
+**Date:** 29 Nov 2025
+
+## User Data Functions
+
+- Host and execute own code, exposed as UDF functions, also exposed as APIs
+- Use Public Python libraries, Custom own python packages, Fabric Connections
+- Reusability across workspaces in many fabric items like notebooks, pipelines, Power BI etc.
+- Fabric portal editor, VS code as well
+- Consumes Fabric capacity
+- Notebook cells are local to notebook, however UDF are standalone and hosted in server
+- Can be invoked across multiple workspaces and capacities
+
+---
 
 **Date:** 29 Nov 2025
 
