@@ -1,11 +1,24 @@
 # Microsoft Fabric
 
+**Date:** 03 Dec 2025
+
+## Variable Sets
+
+- Workspace level item, scoped per workspace
+- bucket to hold the variables and value sets, set active to a value set
+- Environment specific value sets
+- can be consumed by other items in workspace
+- CI/CD compatible
+- It is not a secret store
+
+---
+
 **Date:** 29 Nov 2025
 
 ## User Data Functions
 
 - Host and execute own code, exposed as UDF functions, also exposed as APIs
-- Use Public Python libraries, Custom own python packages, Fabric Connections
+- Can use Public Python libraries, Custom own python packages, Fabric Connections in the code of UDF
 - Reusability across workspaces in many fabric items like notebooks, pipelines, Power BI etc.
 - Fabric portal editor, VS code as well
 - Consumes Fabric capacity
@@ -22,7 +35,7 @@
 - New JDBC Driver designed to connect to Spark workloads, can submit Spark SQL from Java apps also
 - Start spark session, configure its resources. Can talk to spark clusters.
 - Follows JDBC standard and support Spark SQL data types (Array, Map, Struct)
-- It can rread anything which spark can read
+- It can read anything which spark can read
 - Allows all flows from Microsoft Entra Authentication
 - Connection pooling, auto-reconnect, circuit breaker, result-set prefetching, proxy support
 - Cannot work with regular Databases
