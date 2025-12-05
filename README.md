@@ -1,5 +1,11 @@
 # Microsoft Fabric
 
+**Date:** 05 Dec 2025
+
+## Fabric notebooks support Workspace identity
+
+---
+
 **Date:** 03 Dec 2025
 
 ## Variable Sets
