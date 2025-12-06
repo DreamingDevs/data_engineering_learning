@@ -3,6 +3,18 @@
 **Date:** 06 Dec 2025
 
 - Mirroring Google BigQuery in Microsoft Fabric (Preview)
+
+### AWS S3 secure access using Entra and VPC
+
+- Register a service principal in Microsoft Entra ID.
+- Configure an OIDC trust relationship between Entra and AWS IAM.
+- Create an IAM role and policy that grants the required S3 permissions.
+- Configure EC2 instance with VPC endpoint / network path to S3.
+- Install and configure the on-premises data gateway in EC2 network.
+- Verify that the gateway can reach the S3 endpoint privately.
+- Create a Fabric connection that uses your Entra service principal–based integration.
+- When creating the Amazon S3 shortcut, select the connection and the on-premises data gateway.
+- Browse to the VPC-protected bucket or folder and complete the shortcut creation.
   
 ---
 
