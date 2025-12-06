@@ -2,7 +2,9 @@
 
 **Date:** 05 Dec 2025
 
-## Fabric notebooks support Workspace identity
+ - Fabric notebooks support Workspace identity
+ - OneLake data (including Shortcuts) are available in Azure Foundry for knowledge sources
+ - OneDrive and Sharepoint Shortcuts (preview) to get data into OneLake
 
 ---
 
