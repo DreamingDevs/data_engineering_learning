@@ -1,9 +1,15 @@
 # Microsoft Fabric
 
+**Date:** 06 Dec 2025
+
+- Mirroring Google BigQuery in Microsoft Fabric (Preview)
+  
+---
+
 **Date:** 05 Dec 2025
 
  - Fabric notebooks support Workspace identity
- - OneLake data (including Shortcuts) are available in Azure Foundry for knowledge sources
+ - OneLake data (including Shortcuts) available in Azure Foundry for knowledge sources
  - OneDrive and Sharepoint Shortcuts (preview) to get data into OneLake
 
 ---
@@ -13,9 +19,9 @@
 ## Variable Sets
 
 - Workspace level item, scoped per workspace
-- bucket to hold the variables and value sets, set active to a value set
+- Bucket to hold the variables and value sets, set active to a value set
 - Environment specific value sets
-- can be consumed by other items in workspace
+- Can be consumed by other items in workspace
 - CI/CD compatible
 - It is not a secret store
 
