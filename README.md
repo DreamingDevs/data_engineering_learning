@@ -1,5 +1,13 @@
 # Microsoft Fabric
 
+**Date:** 07 Dec 2025
+
+- Copy job can handle incremental inserts, updates and deletes when source tables are CDC enabled
+    - Inserts, Updates and Hard deletes are supported for CDC enabled tables
+    - Inserts and updates are supported for normal tables which have watermark columns
+
+---
+
 **Date:** 06 Dec 2025
 
 - Mirroring Google BigQuery in Microsoft Fabric (Preview)
@@ -89,8 +97,8 @@
 
 ## Copy Job (General Availability)
 - Supports full / Incremental / CDC data refreshes
-- Deletes can only be handled in CDC refresh
-- Inseets / Updates only be handled in Incremental data refresh
+- Deletes can only be handled in CDC refresh (source DB should have CDC enabled)
+- Inserts / Updates only be handled in Incremental data refresh
 - Full will overwrite the entire table
 - Incremental - 3CUs, Full - 1.5 CU
 
