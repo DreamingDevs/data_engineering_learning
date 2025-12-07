@@ -5,6 +5,8 @@
 - Copy job can handle incremental inserts, updates and deletes when source tables are CDC enabled
     - Inserts, Updates and Hard deletes are supported for CDC enabled tables
     - Inserts and updates are supported for normal tables which have watermark columns
+- Dataverse tables can be directly ingested to Fabric workspace without ETL/ELT
+    - CDC can be used to copy data from Dataverse LH data to destinations using Copy Job
 
 ---
 
