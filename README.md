@@ -2,9 +2,19 @@
 
 **Date:** 07 Dec 2025
 
+### Lakehouse Materialized views
+- Lakehouse Schema (Preview)- Once enabled cannot be disabled. For old LH, create new LH.
+    - Materialized views in LH can be created using Spark SQL.
+    - Materialized views pre-compute costly aggregations.
+    - Schedule refreshes can be defined by us, but fabric is intelligent to refresh only when changes are present.
+    - Fabric shows lineage of materialized views.
+ 
+### CDC Copy Job
 - Copy job can handle incremental inserts, updates and deletes when source tables are CDC enabled
     - Inserts, Updates and Hard deletes are supported for CDC enabled tables
     - Inserts and updates are supported for normal tables which have watermark columns
+ 
+### Dataverse ingest into Fabric
 - Dataverse tables can be directly ingested to Fabric workspace without ETL/ELT
     - CDC can be used to copy data from Dataverse LH data to destinations using Copy Job
 
