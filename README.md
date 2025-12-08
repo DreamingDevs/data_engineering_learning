@@ -1,5 +1,11 @@
 # Microsoft Fabric
 
+**Date:** 08 Dec 2025
+
+- EON stores Database backups as Iceberg tables which can be made available in Fabric OneLake through shortcuts which are available in OneLake catalog which can be then discovered and queried.
+
+---
+
 **Date:** 07 Dec 2025
 
 ### Lakehouse Materialized views
