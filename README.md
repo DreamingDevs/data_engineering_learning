@@ -1,5 +1,13 @@
 # Microsoft Fabric
 
+**Date:** 10 Dec 2025
+
+- Anomaly detector (Preview) for Fabric Real Time Intelligence (RTI) detects unusal patterns and outliers from streaming data of Eventhouse tables.
+    - Wide range of models for detection and can be tuned for sensitivity
+    - Billing to Fabric CU for query execution, not based on data volume
+
+---
+
 **Date:** 08 Dec 2025
 
 - EON stores Database backups as Iceberg tables which can be made available in Fabric OneLake through shortcuts which are available in OneLake catalog which can be then discovered and queried.
