@@ -1,5 +1,16 @@
 # Microsoft Fabric
 
+**Date:** 11 Dec 2025
+
+- Spark unique id
+    - Monotonically_increasing_id() is a column function and not a window function, it cannot garantee sequential id's across all partitions.
+        - No shuffle is required
+    - row_number() is a window function and it should be used with orderBy('col').
+        - Global shuffle would be required because of sort operation
+        - If we use partitionBy() then sequential ids will be at a partition level.
+
+---
+
 **Date:** 10 Dec 2025
 
 - OneLake Security
