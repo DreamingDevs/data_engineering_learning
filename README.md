@@ -2,6 +2,8 @@
 
 **Date:** 10 Dec 2025
 
+- OneLake Security
+    - Supports Contributor, Reader, Restricted (ReadWrite for specific schemas
 - Anomaly detector (Preview) for Fabric Real Time Intelligence (RTI) detects unusal patterns and outliers from streaming data of Eventhouse tables.
     - Wide range of models for detection and can be tuned for sensitivity
     - Billing to Fabric CU for query execution, not based on data volume
