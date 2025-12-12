@@ -75,7 +75,7 @@
 
 **Date:** 03 Dec 2025
 
-## Variable Sets
+## Variable Library
 
 - Workspace level item, scoped per workspace
 - Bucket to hold the variables and value sets, set active to a value set
@@ -83,6 +83,8 @@
 - Can be consumed by other items in workspace
 - CI/CD compatible
 - It is not a secret store
+- notebookutils.variableLibrary.getLibrary("...") -> to get the variable library in notebook
+- Variable library can also be used to %%Configure to set runtime values for spark session
 
 ---
 
