@@ -2,6 +2,14 @@
 
 **Date:** 13 Dec 2025
 
+### Schema Lakehouses
+- Organize tables like folders
+- Schema enabled shortcuts (other tables in other schemas or external locations like ADLS)
+- Spark allows multiple lakehouses (schema and non-schema) across workspaces using join
+- OneLake RLS/CLS and Materialized Views are supported
+- Notebooks should not have pinned or pinned specific schema lakehouse to use this schema lakehouse
+
+### Migration Assistant
 - Migration assistant tool available for ADF
     - Ready, Needs Review, Coming Soon, Not compatible
 - Powershell Migration upgrade tool available
