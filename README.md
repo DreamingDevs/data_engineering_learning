@@ -1,5 +1,14 @@
 # Microsoft Fabric
 
+**Date:** 13 Dec 2025
+
+- Migration assistant tool available for ADF
+    - Ready, Needs Review, Coming Soon, Not compatible
+- Powershell Migration upgrade tool available
+- Connector compatibility comparision available between ADF and Fabric 
+
+---
+
 **Date:** 11 Dec 2025
 
 - Spark unique id
