@@ -1,5 +1,14 @@
 # Microsoft Fabric
 
+**Date:** 14 Dec 2025
+
+### SSIS 2025
+- Supports Entra ID Auth, TLS 1.3 and TDS 8 (encryption at rest and in transit)
+- SSIS packages can be used in Fabric Data Factory
+- SSIS Lift & Shift in Fabric (Private Preview)
+
+---
+
 **Date:** 13 Dec 2025
 
 ### Schema Lakehouses
