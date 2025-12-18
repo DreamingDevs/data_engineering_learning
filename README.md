@@ -2,6 +2,11 @@
 
 **Date:** 18 Dec 2025
 
+### Extensibility Toolkit
+- Provides framework and starter kit to extend Fabric for custom needs
+- Create Data apps and UI experiences which are native to Fabric
+- Develop solution and make it available to fabric community through workload hub
+
 ### Operation Agents (Preview)
 - Fabric Real time intelligence integration
 - observe → analyze → decide → act cycle
