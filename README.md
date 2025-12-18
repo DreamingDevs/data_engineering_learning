@@ -1,5 +1,20 @@
 # Microsoft Fabric
 
+**Date:** 18 Dec 2025
+
+### Operation Agents (Preview)
+- Fabric Real time intelligence integration
+- observe → analyze → decide → act cycle
+- Set Business Goals, add instructions, select datasource, define and configure actions
+- Install Fabric Operations Agent App in Teams for communication with Agent
+- Billing -
+    - Copilot of Fabric
+    - Operation Agent Compute
+    - Operation Agent autonomous reasoning
+    - OneLake Storage
+
+---
+
 **Date:** 14 Dec 2025
 
 ### SSIS 2025
