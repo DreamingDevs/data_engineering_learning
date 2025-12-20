@@ -5,6 +5,10 @@
 - Spark job activity and Notebook activity supports Workspace Identity and Service Principal to execute in pipeline.
 - DATE_BUCKET() in Fabric Warehouse helps in aggregating data using custom time ranges like 3 WEEK, 2 MONTH, 5 MINUTE etc.
     - DATE_BUCKET(3, WEEK, orderDate)
+###  Connect to ADO using SPN
+- Two auth flows are supported - Automated GIT integration, Configured Credential
+- In Automated GIT, Admin user needs to login from settings and then connect workspace to a GIT repo. Any other user (contributor) need not repeat the process, however should have access to the repo, otherwise red indicator.
+- With configured credential, Admin can configure SPN details in Azure DevOps Cloud connections. Any other user (contributor) no need to repeat the process, however the SPN will be used if in case automated GIT fails.
 
 ---
 
