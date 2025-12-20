@@ -1,5 +1,11 @@
 # Microsoft Fabric
 
+**Date:** 20 Dec 2025
+
+- Spark job activity and Notebook activity supports Workspace Identity and Service Principal to execute in pipeline.
+
+---
+
 **Date:** 18 Dec 2025
 
 ### Extensibility Toolkit
