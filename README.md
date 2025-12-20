@@ -3,6 +3,8 @@
 **Date:** 20 Dec 2025
 
 - Spark job activity and Notebook activity supports Workspace Identity and Service Principal to execute in pipeline.
+- DATE_BUCKET() in Fabric Warehouse helps in aggregating data using custom time ranges like 3 WEEK, 2 MONTH, 5 MINUTE etc.
+    - DATE_BUCKET(3, WEEK, orderDate)
 
 ---
 
