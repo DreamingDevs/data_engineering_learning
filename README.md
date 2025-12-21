@@ -4,6 +4,10 @@
 
 - On-premise gateway can be updated from the Ui manually or through API or script.
     - December Gateway version is compatible and optimized for December Power BI Desktop version for query excution and runtime.
+- Fabric EventStream SQL Operator
+    - Real time processing logic can be implemented with Eventstream
+    - Supports CTE with Tumbling and sliding windows
+    - Issues can be debugged immediately with ease
 
 ---
 
