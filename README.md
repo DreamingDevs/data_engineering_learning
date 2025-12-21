@@ -1,5 +1,12 @@
 # Microsoft Fabric
 
+**Date:** 21 Dec 2025
+
+- On-premise gateway can be updated from the Ui manually or through API or script.
+    - December Gateway version is compatible and optimized for December Power BI Desktop version for query excution and runtime.
+
+---
+
 **Date:** 20 Dec 2025
 
 - Spark job activity and Notebook activity supports Workspace Identity and Service Principal to execute in pipeline.
