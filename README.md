@@ -1,5 +1,14 @@
 # Microsoft Fabric
 
+**Date:** 29 Dec 2025
+
+- Fabric AI Prompt in Dataflow Gen2 (Preview)
+    - It is part of Fabric AI functions which can add new column based on AI prompts
+    - Incurs cost based on queries
+    - Gateway support not present
+
+---
+
 **Date:** 21 Dec 2025
 
 - On-premise gateway can be updated from the Ui manually or through API or script.
