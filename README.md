@@ -1,5 +1,14 @@
 # Microsoft Fabric
 
+**Date:** 30 Dec 2025
+
+- Fabric runtime 2.0 (preview)
+    - Spark 4.0 and Delta 4.0
+    - Python 3.12
+    - Lot of limitations when it comes to spark optimization (v-order, autocompaction, optimize write etc)
+
+---
+
 **Date:** 29 Dec 2025
 
 - Fabric AI Prompt in Dataflow Gen2 (Preview)
