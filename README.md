@@ -2,6 +2,16 @@
 
 **Date:** 1 Jan 2026
 
+- Fabric Forecating Service
+    - Designed to reduce startup latency, avoid throttling analytics velocity, delayed insights, reduce operational costs
+    - ML driven provision to manage elasticity and performance at scale 
+    - When it will take more time (5 mins)
+          - Custom VNet, Managed Private endpoints
+          - Custom libraries and spark properties
+    - Keep ready to use cluster/session for starter pools
+    - Determine the right size of starter pool (wait time vs idle time)
+    - Based on telemetry, re-hydrate clusters in near real time
+    - time series based Singular Spectrum Analysis (SSA) with Sample Average Approximation (SAA) linear program
 - Fabric Environments
     - Customs packages, public packages and built in libraries
     - Supports packages from private repositories
