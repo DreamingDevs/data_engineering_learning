@@ -1,5 +1,14 @@
 # Microsoft Fabric
 
+**Date:** 1 Jan 2026
+
+- Fabric Environments
+    - Customs packages, public packages and built in libraries
+    - Supports packages from private repositories
+    - Notebooks also support inline installation
+
+---
+
 **Date:** 30 Dec 2025
 
 - Fabric runtime 2.0 (preview)
