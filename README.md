@@ -38,8 +38,12 @@
 - Ensure proper column segement size (1 - 16 million)
 - Didable direct query fallback
 - Ensure less number of parquet files
-- Ensure large row groups
+- Ensure large row groups (not smaller ones, as it will impact data dictionary longer)
 - Less data updates on delta log
+- Delta tables should not be overriden it will impact incremental framing
+- Enable partitions
+- Use Delta Analyzer to analyze delta tables, parquet files, row groups etc.
+- Fabric CUs will impact the prarallel read operations by limiting the core availability.
 
 ---
 
