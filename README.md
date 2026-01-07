@@ -1,5 +1,48 @@
 # Microsoft Fabric
 
+**Date:** 7 Jan 2026
+
+### Direct Lake
+
+- Power BI Semantic Model storage mode which loads Delta tables from OneLake into Memory
+- Direct Lake / Import modes -> Vertipaq engine, Direct query mode -> Federates query to underlying storage
+- Data Refrshes
+    - Import creates entire cached copy of data in-memory
+    - Direct Lake only refreshed metadata which takes only few seconds
+- Data preparation
+    - Direct Lake needs preparation using Spark, TSQL, Data flows etc.
+    - Import mode data prep can be done using Power query.
+- Direct Lake modes
+    - OneLake (Public Preview) - Cannot fallback onto direct query, supports RLS, supports Delta tables from all sources
+    - SQL - Can fallback into direct query (disable DisableLakeBehavior), supports RLS, Only LHs and WHs
+- Direct Lake on OneLake is more efficient in creating DAX query plans
+- The process of loading data on-demand from OneLake is known as transcoding. Columsn will be removed on -
+    - Memory pressure on capacity
+    - Not used in query
+    - Model/Table got updated
+- Framing refreshed the semantic model wih latest references of Delta tables and parquet files
+    - Incremental framing is possible for optimization
+- Automatic updates are enabled by default, can be diabled at semantic model
+- Direct Lake semantic models can be in cold, semi warm, warm, hot
+- Direct lake uses -
+    - Formula Engine (query plan vertiscan) and storage engine (vertipaq)
+- Column chunks and segments in Vertipaq (large columns in segments and store)
+- Data dictionary in Vertipaq (compression for unique column values based on integer run length encoding)
+
+### Optimizations
+- Should not exceed max memory of fabric capacity, otherwise fallback to direct query and will impact performance
+- VORDER optimization
+- Ensure right data types
+- Remove unused columns
+- Ensure no skew in column cardinality
+- Ensure proper column segement size (1 - 16 million)
+- Didable direct query fallback
+- Ensure less number of parquet files
+- Ensure large row groups
+- Less data updates on delta log
+
+---
+
 **Date:** 1 Jan 2026
 
 - Fabric Forecating Service
