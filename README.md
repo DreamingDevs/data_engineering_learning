@@ -1,5 +1,14 @@
 # Microsoft Fabric
 
+**Date:** 24 Jan 2026
+
+- Performance optimizations od real-time dashboards (KQL Databse + KQL Queryset + Real-time dashboard)
+    - Initial load 6X faster
+    - Charts render 10X faster
+    - Large datasets visaulization
+
+---
+
 **Date:** 7 Jan 2026
 
 ### Direct Lake
