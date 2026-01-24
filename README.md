@@ -6,7 +6,8 @@
     - Initial load 6X faster
     - Charts render 10X faster
     - Large datasets visaulization
-
+- Copilot can be used to generate KQL queries for real-time dashboards.
+- 
 ---
 
 **Date:** 7 Jan 2026
