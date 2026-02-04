@@ -3,7 +3,14 @@
 **Date:** 4 Feb 2026
 
 - Capacity level surge protection - Background operations rejection threshold, Background operations recovery threshold
-- Workspace level surge protection - Rejection Threshold, Backgroup operation rejection and recovery thresholds
+- Workspace level surge protection (Preview) - Rejection Threshold, Backgroup operation rejection and recovery thresholds
+
+### Connections within Notebook (Preview)
+- Create connections to cloud data sources like Azure SQL Database within Notebooks
+- This is helpful for not managing secrets and connectionstrings in Notebooks
+- Connections can be created at notebook or at global data source management UI
+- Code can be generated which using this connection using connection_id
+- Helps in centralized secret roations, sharing connections, works with service principal and workspace identity
 
 ---
 
