@@ -1,13 +1,20 @@
 # Microsoft Fabric
 
+**Date:** 4 Feb 2026
+
+- Capacity level surge protection - Background operations rejection threshold, Background operations recovery threshold
+- Workspace level surge protection - Rejection Threshold, Backgroup operation rejection and recovery thresholds
+
+---
+
 **Date:** 24 Jan 2026
 
-- Performance optimizations od real-time dashboards (KQL Databse + KQL Queryset + Real-time dashboard)
+- Performance optimizations of real-time dashboards (KQL Databse + KQL Queryset + Real-time dashboard)
     - Initial load 6X faster
     - Charts render 10X faster
     - Large datasets visaulization
 - Copilot can be used to generate KQL queries for real-time dashboards.
-- 
+
 ---
 
 **Date:** 7 Jan 2026
