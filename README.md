@@ -6,6 +6,9 @@
     - Current limit is 1000 which can be increased to 10000
     - Beware of limit at Entra level
 - Workspace-level IP firewall rules, workspace admins retain full control over inbound access controls through IP ranges.
+- Workspace outbound acccess protections
+    - Managed Private endpoints
+    - Data Connection rules
 
 ---
 
