@@ -5,6 +5,7 @@
 - Fabric Tenant Admins can increase the number of workspace identities which can be created in organization.
     - Current limit is 1000 which can be increased to 10000
     - Beware of limit at Entra level
+- Workspace-level IP firewall rules, workspace admins retain full control over inbound access controls through IP ranges.
 
 ---
 
