@@ -1,5 +1,13 @@
 # Microsoft Fabric
 
+**Date:** 5 Feb 2026
+
+- Fabric Tenant Admins can increase the number of workspace identities which can be created in organization.
+    - Current limit is 1000 which can be increased to 10000
+    - Beware of limit at Entra level
+
+---
+
 **Date:** 4 Feb 2026
 
 - Capacity level surge protection - Background operations rejection threshold, Background operations recovery threshold
